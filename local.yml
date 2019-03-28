@@ -19,7 +19,7 @@
       username: "{{ rhsm_username }}"
       password: "{{ rhsm_password }}"
       pool_ids:  "{{ rhsm_poolid }}"
-      force_register: yes
+      force_register: no
   
   - name: httpd package is present
     yum:
