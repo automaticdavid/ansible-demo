@@ -4,7 +4,7 @@
     index_title: Awesome web server
     index_content: |
                 This is {{ ansible_hostname | upper }}
-                <br>Hello Paris ! This web server was installed with Ansible Tower
+                <br>Hello Istanbul ! This web server was installed with Ansible Tower
     
   tasks:
   - name: Enforce Red Hat Subscription Manager present
